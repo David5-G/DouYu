@@ -126,12 +126,12 @@
 		63463FFF202BFA6D00E42708 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				63464000202BFA6D00E42708 /* Follow */,
 				63464001202BFA6D00E42708 /* Home */,
 				63464002202BFA6D00E42708 /* Live */,
-				63464003202BFA6D00E42708 /* Main */,
 				63464004202BFA6D00E42708 /* Mine */,
+				63464000202BFA6D00E42708 /* Follow */,
 				63464005202BFA6D00E42708 /* Tool */,
+				63464003202BFA6D00E42708 /* Main */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
