@@ -15,6 +15,10 @@
 		633116A1202B054E002C660A /* DYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633116A0202B054E002C660A /* DYUITests.swift */; };
 		63E6684520440D33005CE30F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6684420440D33005CE30F /* HomeViewController.swift */; };
 		63E6684720440D45005CE30F /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6684620440D45005CE30F /* LiveViewController.swift */; };
+		63E6685B20441A25005CE30F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E6685A20441A25005CE30F /* Home.storyboard */; };
+		63E6685D20441A44005CE30F /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E6685C20441A44005CE30F /* Live.storyboard */; };
+		63E6685F20441A5B005CE30F /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E6685E20441A5B005CE30F /* Follow.storyboard */; };
+		63E6686120441A73005CE30F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E6686020441A73005CE30F /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		633116A2202B054E002C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E6684420440D33005CE30F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		63E6684620440D45005CE30F /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		63E6685A20441A25005CE30F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		63E6685C20441A44005CE30F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		63E6685E20441A5B005CE30F /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		63E6686020441A73005CE30F /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,6 @@
 			children = (
 				63E6683D20440CD5005CE30F /* Classes */,
 				63311680202B054E002C660A /* AppDelegate.swift */,
-				63311684202B054E002C660A /* Main.storyboard */,
 				63311687202B054E002C660A /* Assets.xcassets */,
 				63311689202B054E002C660A /* LaunchScreen.storyboard */,
 				6331168C202B054E002C660A /* Info.plist */,
@@ -143,6 +150,7 @@
 		63E6683E20440CD5005CE30F /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				63E6685E20441A5B005CE30F /* Follow.storyboard */,
 				63E6684420440D33005CE30F /* HomeViewController.swift */,
 			);
 			path = Follow;
@@ -151,6 +159,7 @@
 		63E6683F20440CD5005CE30F /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				63E6685A20441A25005CE30F /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -158,6 +167,7 @@
 		63E6684020440CD5005CE30F /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				63E6685C20441A44005CE30F /* Live.storyboard */,
 				63E6684620440D45005CE30F /* LiveViewController.swift */,
 			);
 			path = Live;
@@ -166,6 +176,7 @@
 		63E6684120440CD5005CE30F /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				63311684202B054E002C660A /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -173,6 +184,7 @@
 		63E6684220440CD5005CE30F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				63E6686020441A73005CE30F /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -294,6 +306,10 @@
 				6331168B202B054E002C660A /* LaunchScreen.storyboard in Resources */,
 				63311688202B054E002C660A /* Assets.xcassets in Resources */,
 				63311686202B054E002C660A /* Main.storyboard in Resources */,
+				63E6685D20441A44005CE30F /* Live.storyboard in Resources */,
+				63E6685B20441A25005CE30F /* Home.storyboard in Resources */,
+				63E6686120441A73005CE30F /* Profile.storyboard in Resources */,
+				63E6685F20441A5B005CE30F /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
