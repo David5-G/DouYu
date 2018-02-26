@@ -126,62 +126,8 @@
 		63463FFF202BFA6D00E42708 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				63464012202C064300E42708 /* Follow */,
-				63464014202C064300E42708 /* Home */,
-				63464010202C064300E42708 /* Live */,
-				63464013202C064300E42708 /* Main */,
-				63464015202C064300E42708 /* Mine */,
-				63464011202C064300E42708 /* Tool */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		63464010202C064300E42708 /* Live */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Live;
-			path = ../../../../../.Trash/Live;
-			sourceTree = "<group>";
-		};
-		63464011202C064300E42708 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tool;
-			path = ../../../../../.Trash/Tool;
-			sourceTree = "<group>";
-		};
-		63464012202C064300E42708 /* Follow */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Follow;
-			path = ../../../../../.Trash/Follow;
-			sourceTree = "<group>";
-		};
-		63464013202C064300E42708 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Main;
-			path = ../../../../../.Trash/Main;
-			sourceTree = "<group>";
-		};
-		63464014202C064300E42708 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Home;
-			path = ../../../../../.Trash/Home;
-			sourceTree = "<group>";
-		};
-		63464015202C064300E42708 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Mine;
-			path = ../../../../../.Trash/Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
