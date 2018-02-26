@@ -13,6 +13,8 @@
 		6331168B202B054E002C660A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63311689202B054E002C660A /* LaunchScreen.storyboard */; };
 		63311696202B054E002C660A /* DYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63311695202B054E002C660A /* DYTests.swift */; };
 		633116A1202B054E002C660A /* DYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633116A0202B054E002C660A /* DYUITests.swift */; };
+		63E6684520440D33005CE30F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6684420440D33005CE30F /* HomeViewController.swift */; };
+		63E6684720440D45005CE30F /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6684620440D45005CE30F /* LiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		6331169C202B054E002C660A /* DYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633116A0202B054E002C660A /* DYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYUITests.swift; sourceTree = "<group>"; };
 		633116A2202B054E002C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E6684420440D33005CE30F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		63E6684620440D45005CE30F /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		63E6683E20440CD5005CE30F /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				63E6684420440D33005CE30F /* HomeViewController.swift */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 		63E6684020440CD5005CE30F /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				63E6684620440D45005CE30F /* LiveViewController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -313,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				63311681202B054E002C660A /* AppDelegate.swift in Sources */,
+				63E6684720440D45005CE30F /* LiveViewController.swift in Sources */,
+				63E6684520440D33005CE30F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
