@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632FF0812044FEEF008BF96F /* MainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632FF0802044FEEF008BF96F /* MainTab.storyboard */; };
+		632FF0832044FF97008BF96F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FF0822044FF97008BF96F /* MainTabBarViewController.swift */; };
 		63311681202B054E002C660A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63311680202B054E002C660A /* AppDelegate.swift */; };
 		63311686202B054E002C660A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63311684202B054E002C660A /* Main.storyboard */; };
 		63311688202B054E002C660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63311687202B054E002C660A /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		632FF0802044FEEF008BF96F /* MainTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTab.storyboard; sourceTree = "<group>"; };
+		632FF0822044FF97008BF96F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		6331167D202B054E002C660A /* DY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63311680202B054E002C660A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63311685202B054E002C660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				63311684202B054E002C660A /* Main.storyboard */,
+				632FF0802044FEEF008BF96F /* MainTab.storyboard */,
+				632FF0822044FF97008BF96F /* MainTabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 				63311686202B054E002C660A /* Main.storyboard in Resources */,
 				63E6685D20441A44005CE30F /* Live.storyboard in Resources */,
 				63E6685B20441A25005CE30F /* Home.storyboard in Resources */,
+				632FF0812044FEEF008BF96F /* MainTab.storyboard in Resources */,
 				63E6686120441A73005CE30F /* Profile.storyboard in Resources */,
 				63E6685F20441A5B005CE30F /* Follow.storyboard in Resources */,
 			);
@@ -335,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63311681202B054E002C660A /* AppDelegate.swift in Sources */,
+				632FF0832044FF97008BF96F /* MainTabBarViewController.swift in Sources */,
 				63E6684720440D45005CE30F /* LiveViewController.swift in Sources */,
 				63E6684520440D33005CE30F /* HomeViewController.swift in Sources */,
 			);
