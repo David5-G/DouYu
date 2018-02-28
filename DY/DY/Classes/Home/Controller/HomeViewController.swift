@@ -10,6 +10,15 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+   private lazy var pageTitleView: PageTitleView = {
+        let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: 40)
+        let titles = ["推荐", "游戏", "娱乐", "趣玩"]
+        let pageTitleView = PageTitleView(frame: titleFrame, titles: titles)
+        pageTitleView.backgroundColor = UIColor.purple
+        return pageTitleView
+    }()
+    
+    //MARK:- 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,10 +27,14 @@ class HomeViewController: UIViewController {
     }
 }
 
+//MARK:- 设置UI
 extension HomeViewController {
     private func setupUI() {
         //1.设置naviBar
         setupNavigationBar()
+        
+        //2.添加pageTitleView
+        view.addSubview(pageTitleView)
     }
     
     private func setupNavigationBar (){

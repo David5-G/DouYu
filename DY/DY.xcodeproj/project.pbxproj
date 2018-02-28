@@ -21,6 +21,8 @@
 		6331168B202B054E002C660A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63311689202B054E002C660A /* LaunchScreen.storyboard */; };
 		63311696202B054E002C660A /* DYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63311695202B054E002C660A /* DYTests.swift */; };
 		633116A1202B054E002C660A /* DYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633116A0202B054E002C660A /* DYUITests.swift */; };
+		6377923C2046A3D700E8BCF0 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377923B2046A3D700E8BCF0 /* PageTitleView.swift */; };
+		6377923E2046A73D00E8BCF0 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377923D2046A73D00E8BCF0 /* common.swift */; };
 		63CA33EE204654D20095D3C6 /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		6331169C202B054E002C660A /* DYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633116A0202B054E002C660A /* DYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYUITests.swift; sourceTree = "<group>"; };
 		633116A2202B054E002C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6377923B2046A3D700E8BCF0 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		6377923D2046A73D00E8BCF0 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,7 @@
 		632FF0892045470C008BF96F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6377923B2046A3D700E8BCF0 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 			isa = PBXGroup;
 			children = (
 				63CA33EC204654630095D3C6 /* Extension */,
+				6377923D2046A73D00E8BCF0 /* common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -472,6 +478,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6377923E2046A73D00E8BCF0 /* common.swift in Sources */,
+				6377923C2046A3D700E8BCF0 /* PageTitleView.swift in Sources */,
 				632FF0A32045493B008BF96F /* MainTabBarViewController.swift in Sources */,
 				63311681202B054E002C660A /* AppDelegate.swift in Sources */,
 				63CA33EE204654D20095D3C6 /* UIBarButtonItem_Extension.swift in Sources */,
