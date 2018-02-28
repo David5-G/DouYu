@@ -14,12 +14,14 @@
 		632FF0A12045490F008BF96F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632FF09F2045490B008BF96F /* Profile.storyboard */; };
 		632FF0A220454939008BF96F /* MainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632FF09B204548F1008BF96F /* MainTab.storyboard */; };
 		632FF0A32045493B008BF96F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FF09C204548F1008BF96F /* MainTabBarViewController.swift */; };
+		632FF0A520454DC0008BF96F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FF0A420454DC0008BF96F /* HomeViewController.swift */; };
 		63311681202B054E002C660A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63311680202B054E002C660A /* AppDelegate.swift */; };
 		63311686202B054E002C660A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63311684202B054E002C660A /* Main.storyboard */; };
 		63311688202B054E002C660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63311687202B054E002C660A /* Assets.xcassets */; };
 		6331168B202B054E002C660A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63311689202B054E002C660A /* LaunchScreen.storyboard */; };
 		63311696202B054E002C660A /* DYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63311695202B054E002C660A /* DYTests.swift */; };
 		633116A1202B054E002C660A /* DYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633116A0202B054E002C660A /* DYUITests.swift */; };
+		63CA33EE204654D20095D3C6 /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		632FF09B204548F1008BF96F /* MainTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTab.storyboard; sourceTree = "<group>"; };
 		632FF09C204548F1008BF96F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		632FF09F2045490B008BF96F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		632FF0A420454DC0008BF96F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		6331167D202B054E002C660A /* DY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63311680202B054E002C660A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63311685202B054E002C660A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		6331169C202B054E002C660A /* DYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633116A0202B054E002C660A /* DYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYUITests.swift; sourceTree = "<group>"; };
 		633116A2202B054E002C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				632FF08D20454896008BF96F /* Home.storyboard */,
+				632FF0A420454DC0008BF96F /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +254,14 @@
 			path = DYUITests;
 			sourceTree = "<group>";
 		};
+		63CA33EC204654630095D3C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		63E6683D20440CD5005CE30F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +328,7 @@
 		63E6684320440CD5005CE30F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				63CA33EC204654630095D3C6 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -460,7 +474,9 @@
 			files = (
 				632FF0A32045493B008BF96F /* MainTabBarViewController.swift in Sources */,
 				63311681202B054E002C660A /* AppDelegate.swift in Sources */,
+				63CA33EE204654D20095D3C6 /* UIBarButtonItem_Extension.swift in Sources */,
 				632FF096204548CF008BF96F /* LiveViewController.swift in Sources */,
+				632FF0A520454DC0008BF96F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
