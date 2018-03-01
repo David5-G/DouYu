@@ -7,14 +7,17 @@
 //
 
 import UIKit
+//MARK:-自定义常量
+private let kPageTitleViewH: CGFloat = 40
 
+//MARK:-
 class HomeViewController: UIViewController {
 
+    //MARK:-  懒加载属性
    private lazy var pageTitleView: PageTitleView = {
         let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: 40)
         let titles = ["推荐", "游戏", "娱乐", "趣玩"]
         let pageTitleView = PageTitleView(frame: titleFrame, titles: titles)
-        pageTitleView.backgroundColor = UIColor.purple
         return pageTitleView
     }()
     
@@ -29,7 +32,10 @@ class HomeViewController: UIViewController {
 
 //MARK:- 设置UI
 extension HomeViewController {
+    
     private func setupUI() {
+        automaticallyAdjustsScrollViewInsets = false
+        
         //1.设置naviBar
         setupNavigationBar()
         
