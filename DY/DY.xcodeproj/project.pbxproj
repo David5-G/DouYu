@@ -23,6 +23,7 @@
 		633116A1202B054E002C660A /* DYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633116A0202B054E002C660A /* DYUITests.swift */; };
 		6377923C2046A3D700E8BCF0 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377923B2046A3D700E8BCF0 /* PageTitleView.swift */; };
 		6377923E2046A73D00E8BCF0 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377923D2046A73D00E8BCF0 /* common.swift */; };
+		638073D420610D1100D956A1 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638073D320610D1100D956A1 /* RecommendViewController.swift */; };
 		63CA33EE204654D20095D3C6 /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */; };
 		DCD5BD18204A42D900EC8BB8 /* UIColor_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD5BD17204A42D900EC8BB8 /* UIColor_extension.swift */; };
 		DCE7D423204A821000F19AA1 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE7D422204A821000F19AA1 /* PageContentView.swift */; };
@@ -68,6 +69,7 @@
 		633116A2202B054E002C660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6377923B2046A3D700E8BCF0 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		6377923D2046A73D00E8BCF0 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		638073D320610D1100D956A1 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		63CA33ED204654D20095D3C6 /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
 		DCD5BD17204A42D900EC8BB8 /* UIColor_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_extension.swift; sourceTree = "<group>"; };
 		DCE7D422204A821000F19AA1 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				632FF08D20454896008BF96F /* Home.storyboard */,
 				632FF0A420454DC0008BF96F /* HomeViewController.swift */,
+				638073D320610D1100D956A1 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				63CA33EE204654D20095D3C6 /* UIBarButtonItem_Extension.swift in Sources */,
 				632FF096204548CF008BF96F /* LiveViewController.swift in Sources */,
 				632FF0A520454DC0008BF96F /* HomeViewController.swift in Sources */,
+				638073D420610D1100D956A1 /* RecommendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
